@@ -221,7 +221,7 @@ def main() -> None:
     parser.add_argument("manual_csv", help="Manual decision CSV with required columns")
     parser.add_argument("--out-dir", required=True, help="Output directory for reviewed reports and summaries")
     parser.add_argument("--gradebook", help="Optional gradebook template .xlsx")
-    parser.add_argument("--gradebook-out", default="final_gradebook.xlsx")
+    parser.add_argument("--gradebook-out", default="\u6700\u7ec8\u6210\u7ee9\u6c47\u603b\u8868.xlsx")
     parser.add_argument("--exceptions-out", default=EXCEPTION_CSV, help="CSV for skipped Word writes")
     args = parser.parse_args()
 
